@@ -1,0 +1,195 @@
+#menu
+{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	padding-top: 0;
+	margin-top: 0;
+	font-family: Calibri, sans-serif;
+	font-size: 24px;
+	background-color: rgb(241, 241, 241);
+	z-index: 1001;
+}
+
+#menu_logo{
+	float: left;
+	margin: 10px;
+	height: 55px;
+	z-index: 1000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#main_icon{
+	margin-top: 130px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+
+li {
+	display: inline;
+	cursor: pointer;
+}
+
+li.menu{
+	background-color: rgb(241, 241, 241);
+	float: left;
+}
+
+li a {
+	text-align: center;
+	display: block;
+	color: silver;
+	height: 30px;
+	padding: 15px 20px;
+	text-decoration: none;
+  }
+
+li a:hover {
+	background-color: rgb(235, 235, 235);
+	color: rgb(120, 200, 138);
+  }
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	align-self: center;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(143, 152, 143);
+	font-size: 36px;
+	font-family: Calibri, sans-serif;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+h1:before, h1:after {
+	  position: absolute;
+	  overflow: hidden;
+	  top: 50%;
+	  width: 50%;
+	  height: 2px;
+	  content: '\a0';
+	  background-color: rgb(143, 152, 143);
+  }
+
+h1:before {
+	  margin-left: -50%;
+	  text-align: right;
+  }
+
+img.photos{
+	width: 220px;
+	height: 220px;
+	margin: 45px;
+	border: solid 0.5px rgb(143, 152, 143);	
+	transition: 0.75s ease-in-out;
+	transform: 0.75s ease-in-out;
+	object-fit: cover;
+	
+	visibility: initial;
+	position: initial;
+	display: initial;
+}
+
+img.photos:hover{
+	transform: scale(1.35);
+	width: initial + 35%;
+	height: initial + 35%;
+	transform: 0.75s ease-in-out;
+	position: initial;
+
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+
+	}
+
+body{
+	background-color: rgb(143, 152, 143);
+	margin: 0;
+	background-image: linear-gradient(to right, rgb(241, 241, 241), white);
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#playlist{
+	font-size : 20px;
+	text-align : center;
+}
+
+
+.fb-like{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fb_icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+img.qr{
+	width: 220px;
+	height: 220px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#hebtext {
+	text-align : center;
+	color: black;
+	font-size: 18px;
+	font-family: Calibri, sans-serif;
+}
+
+#anshebtext{
+	margin: 30px;
+	text-align : right;
+	color: black;
+	font-size: 18px;
+	font-family: Calibri, sans-serif;
+}
+
+form {
+	direction: ltr;
+	background: #fff;
+	box-shadow: 0 5px 10px 0 rgba(90, 148, 105, 0.4);
+	border-radius: 5px;
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	left: 0;
+	right: 0;
+	animation: bounce 1.5s infinite;
+  }
+
+.brightness {
+    background-color: white;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .5;
+}
+
